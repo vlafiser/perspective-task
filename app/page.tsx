@@ -123,7 +123,7 @@ export default function Home() {
 
       <div className="relative">
         {/* Scalable Page Navigation */}
-        {funnelData && funnelData.pages.length > 0 && (
+        {funnelData && funnelData.pages.length > 1 && (
           <div
             className="absolute w-full flex justify-between"
             style={{
