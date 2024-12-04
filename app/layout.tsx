@@ -32,7 +32,7 @@ export default function RootLayout({
               className='w-9 h-9'
             />
           </Link>
-          <h1 className={`mt-0 mb-0 ml-4 text-md font-semibold leading-[120%] text-black`}>
+          <h1 className={`mt-0 mb-0 ml-4 text-md font-semibold leading-[120%] text-black cursor-default`}>
             Funnel Mobile Preview
           </h1>
         </div>
