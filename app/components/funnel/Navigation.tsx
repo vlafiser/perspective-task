@@ -16,7 +16,7 @@ const FunnelNavigation: React.FC<FunnelNavigationProps> = ({
   onNext,
 }) => {
 
-  const iconClassNames = "w-8 h-8 text-blue-500 relative group-active:translate-x-1 transition-transform duration-150 group-disabled:translate-x-0 will-change-transform"
+  const iconClassNames = "w-8 h-8 text-blue-500 relative opacity-100 group-active:translate-x-1 transition-transform duration-150 group-disabled:translate-x-0 group-disabled:opacity-60 will-change-transform"
 
   const buttons = [
     {
