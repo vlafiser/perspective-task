@@ -59,7 +59,7 @@ const MobileUI: React.FC<MobileUIProps> = ({ children, bgColor, error, currentPa
       </div>
 
       {/* Page Indicator */}
-      {totalOfPages && (
+      {totalOfPages && !error && (
         <div className="absolute bottom-12 z-10 w-full text-center font-sans font-semibold text-sm leading-[140%] text-gray-400">
           Page {currentPage + 1} of {totalOfPages}
         </div>
